@@ -5,3 +5,9 @@ __pycache__/
 *.pkl
 mlflow.db
 .env
+
+# generated data (recreate with data/generate_data.py)
+data/*.csv
+
+# generated figures (recreate by running src/detect.py; binaries not committed)
+reports/*.png
